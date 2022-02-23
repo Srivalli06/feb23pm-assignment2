@@ -1,0 +1,16 @@
+L=[]
+n=int(input('enter n'))
+for i in range(n):
+   e=int(input())
+   L.append(e)
+for i in range(n-1,-1,-1):
+     print(L[i])
+        
+enter n
+3
+45
+56
+1
+1
+56
+45
